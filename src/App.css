@@ -7,6 +7,9 @@ align-items: center;
 .task-create{
     width: 400px;
 }
+.task-update{
+    width: 100%;
+}
 
 .task-label{
     margin: 10px 0px;
@@ -32,6 +35,10 @@ align-items: center;
     color: white;
     font-size: 18px;
 }
+
+.update-button{
+background-color: blueviolet;
+    }
 
 .task-list{
     display: flex;
