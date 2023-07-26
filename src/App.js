@@ -1,7 +1,16 @@
+import TaskCreate from "./components/TaskCreate"
+import TaskList from "./components/TaskList"
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello React</h1>
+      
+      <TaskCreate />
+
+      <h1>Görevler</h1>
+
+      <TaskList /> 
+
     </div>
   )
 }
