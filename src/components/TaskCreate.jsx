@@ -1,16 +1,16 @@
 function TaskCreate () {
     return ( 
         <div>
-            <h3>Lütfen Task Giriniz</h3>
-            <form>
-                
-                <label>Başlık</label>
-                <input />
+            <h3 className="task-create">Lütfen Task Giriniz!</h3>
+            <form className="task-form">
 
-                <label>Task Giriniz</label>
-                <input />
+                <label className="task-label">Başlık</label>
+                <input className="task-input"/>
 
-                <button>Oluştur</button>
+                <label className="task-label">Task Giriniz</label>
+                <textarea className="task-input" rows={5} />
+
+                <button className="task-button">Oluştur</button>
 
             </form>
 

@@ -1,5 +1,6 @@
 import TaskCreate from "./components/TaskCreate"
 import TaskList from "./components/TaskList"
+import "./App.css"
 
 function App() {
   return (
