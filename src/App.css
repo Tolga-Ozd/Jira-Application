@@ -5,7 +5,7 @@ align-items: center;
 }
 
 .task-create{
-    width: 400px;
+    width: 300px;
 }
 .task-update{
     width: 100%;
@@ -49,7 +49,7 @@ background-color: blueviolet;
 .task-show{
     border: 1px solid green;
     border-radius: 30px;
-    width: 300px;
+    width: 250px;
     padding: 20px;
     display: flex;
     flex-direction: column;
