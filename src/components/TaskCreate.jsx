@@ -1,6 +1,7 @@
 import { useState } from "react";
 
-function TaskCreate ({onCreate , task , taskFormUpdate}) {
+//alttakiler props
+function TaskCreate ({onCreate , task , taskFormUpdate ,onUpdate}) {
     const [title, setTitle] = useState(task ? task.title : "")
     const [taskDesc, setTaskDesc] = useState(task ? task.taskDesc : "")
 
@@ -14,7 +15,12 @@ function TaskCreate ({onCreate , task , taskFormUpdate}) {
 
     const handleSubmit =(e) =>{
         e.preventDefault()
-        onCreate(title , taskDesc)
+        if(taskFormUpdate){
+            onUpdate(task.id , title, taskDesc)
+        }
+        else{
+            onCreate(title , taskDesc)
+        }
         setTitle("");
         setTaskDesc("")
     }
@@ -38,7 +44,7 @@ function TaskCreate ({onCreate , task , taskFormUpdate}) {
             className="task-input" 
             rows={5} />
 
-            <button onClick={handleSubmit } className="task-button update-button" >Düzenle</button>
+            <button onClick={handleSubmit } className="task-button update-button" >Bitir</button>
 
         </form>
 
