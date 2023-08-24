@@ -9,7 +9,7 @@ I can quickly grasp new technologies and concepts to develop innovative and crea
 If you enjoyed exploring this project, I invite you to check out my other projects as well. I am passionate about programming and have worked on a variety of exciting projects.
 
 ##	Jira Application: 
-## All the Project=>[ https://ozel-ders-randevu.vercel.app/](https://task-project-kappa.vercel.app/)
+## All the Project=>https://task-project-kappa.vercel.app/
 In this project;<br>
 - HTML, <br>
 - CSS Frameworks, <br>
