@@ -19,3 +19,4 @@ In this project;<br>
 - Component structure, <br>
 - useState and <br>
 - React Component <br> were used
+![Animation](https://github.com/Tolga-Ozd/Tolga-Ozd/assets/44951399/24d4429e-5a9c-4cab-ad57-d5f35f4fb12e)
